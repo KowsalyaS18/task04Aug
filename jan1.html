@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>January</title>
+</head>
+<body>
+<script>
+    let start=2014;
+    let end = 2050;
+    for(let currentyear=start;currentyear <= end;currentyear++){
+    if(new Date(currentyear, 0, 1).getDay()===0)
+    {
+    console.log(currentyear);
+    }
+    }
+</script>
+</body>
+</html>
